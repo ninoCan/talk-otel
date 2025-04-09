@@ -1,0 +1,4 @@
+node_modules/
+slidev-example.md
+imported-slides.md
+external.ts

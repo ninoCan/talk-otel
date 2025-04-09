@@ -30,7 +30,7 @@ If you have any feedback, please reach out to me!
 # Useful Reading
 
 
-- [Protobuf docs](https://protobuf.dev/)
-- Linux Foundation free course: [Introduction to Protocol Buffers (LFS145)](https://training.linuxfoundation.org/training/introduction-to-protocol-buffers-lfs145/)
-
+- [OpenTelemetry docs](https://opentelemetry.io/docs/)
+- Linux Foundation free course: [Getting Started with OpenTelemetry (LFS148)](https://trainingportal.linuxfoundation.org/learn/course/getting-started-with-opentelemetry-lfs148/)
+- [Google's SRE book](https://sre.google/sre-book/monitoring-distributed-systems/#xref_monitoring_golden-signals)
 
