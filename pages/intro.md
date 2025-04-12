@@ -1,6 +1,6 @@
 ---
 theme: unicorn
-gradientColors: [ '#A21CAF', '#5B21B6' ]
+
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 # apply any unocss classes to the current slide
