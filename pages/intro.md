@@ -1,0 +1,29 @@
+---
+theme: unicorn
+gradientColors: [ '#A21CAF', '#5B21B6' ]
+# random image from a curated Unsplash collection by Anthony
+# like them? see https://unsplash.com/collections/94734566/slidev
+# apply any unocss classes to the current slide
+# class: 'text-center'
+# some information about the slides, markdown enabled
+layout: center
+transition: slide-left
+title: "OTEL: How I learned to stop worrying and love my microservices"
+mdc: true
+---
+
+<h1><strong>OTEL</strong></h1>
+<h2>How I learned to stop worrying and love my microservices</h2>
+
+
+<style>
+    h1, h2 {
+      background-color:  linear-gradient(180deg, #271817 0%, #27181700 100%);
+      background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 90%);
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+    }
+</style>
