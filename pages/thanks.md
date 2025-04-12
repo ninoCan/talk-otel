@@ -1,6 +1,6 @@
 ---
 theme: unicorn
-layout: center
+layout: two-cols-header
 ---
 # Thank you!
 
@@ -11,11 +11,15 @@ layout: center
   <li class="small">https://ninocan.github.io/talk-otel/</li>
 </ul>
 
-<div class="column">
+::left::
+
 <iframe src="https://ninocan.github.io/talk-otel" width="100%" height="360" frameborder="0" scrolling="no"></iframe>
   <embed
     class="rounded"
     src="https://github.com/ninoCan/">
   </embed>
-</div>
-<div class="column"><img class="rounded" src="" style="height: 360px; margin-top: -1px;"></img></div>
+
+
+::right::
+
+<img class="rounded" src="../assets/qr-code.svg" style="height: 360px; margin-top: -1px;">
