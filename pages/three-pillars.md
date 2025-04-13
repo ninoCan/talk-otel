@@ -1,5 +1,4 @@
 ---
-transition: fade-out
 layout: center
 ---
 
@@ -8,9 +7,9 @@ layout: center
 <div>
 
   <v-clicks>
-    <img class="thirdColumn" src="../assets/pillar-logs.excalidraw.svg">
-    <img class="thirdColumn" src="../assets/pillar-metrics.excalidraw.svg">
-    <img class="thirdColumn" src="../assets/pillar-traces.excalidraw.svg">
+    <img gap-4 class="thirdColumn" src="../assets/pillar-logs.excalidraw.svg">
+    <img gap-4 class="thirdColumn" src="../assets/pillar-metrics.excalidraw.svg">
+    <img gap-4 class="thirdColumn" src="../assets/pillar-traces.excalidraw.svg">
   </v-clicks>
 </div>
 
@@ -20,13 +19,10 @@ layout: center
     width: 30%;
     margin-left: 4px;
   }
-  h1 {
-  background-color:  linear-gradient(180deg, #271817 0%, #27181700 100%);
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 90%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  img {
+    border-radius: 5%;
+  }
+  .slidev-layout {
+    background: linear-gradient(to right, #A11CAF, #5B21B6);
 }
 </style>

@@ -23,3 +23,9 @@ layout: two-cols-header
 ::right::
 
 <img class="rounded" src="../assets/qr-code.svg" style="height: 360px; margin-top: -1px;">
+
+<style>
+  .slidev-layout {
+    background: linear-gradient(to right, #A11CAF, #5B21B6);
+}
+</style>

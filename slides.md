@@ -2,7 +2,6 @@
 title: "OTEL: How I learned to stop worrying and love my microservices"
 theme: default
 layout: center
-transition: slide-left
 mdc: true
 addons:
   - fancy-arrow
@@ -13,15 +12,9 @@ addons:
 
 
 <style>
-    h1, h2 {
-      background-color:  linear-gradient(180deg, #271817 0%, #27181700 100%);
-      background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 90%);
-      background-size: 100%;
-      -webkit-background-clip: text;
-      -moz-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-text-fill-color: transparent;
-    }
+  .slidev-layout {
+    background: linear-gradient(to right, #A11CAF, #5B21B6);
+}
 </style>
 
 ---
@@ -31,7 +24,6 @@ src: ./pages/speaker-pledge.md
 
 ---
 layout: center
-transition: fade-out
 ---
 
 # How many of you deal with microservices?
@@ -46,6 +38,12 @@ transition: fade-out
     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>13?</span>
 </v-clicks></h2>
 
+<style>
+  .slidev-layout {
+    background: linear-gradient(to right, #A11CAF, #5B21B6);
+}
+</style>
+
 ---
 theme: unicorn
 src: ./pages/microservices-challenges.md
@@ -59,7 +57,7 @@ src: ./pages/scenario.md
 ---
 src: ./pages/observability.md
 ---
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzNkMDE5OGNtdnlhOThzbHJmYTZkOWx2eW5kZGc5Y3dsZndpYjZrOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KH6Qz3Aavb0YkibRv9/giphy.gif">
+
 ---
 src: ./pages/events-signals.md
 ---
@@ -91,11 +89,17 @@ src: ./pages/arch-1000-feet.md
 
 
 ---
-transition: zoom
 layout: center
 ---
 
 # METRICS
+
+<style>
+  .slidev-layout {
+    background: linear-gradient(to right, #A11CAF, #5B21B6);
+}
+</style>
+
 
 ---
 src: ./pages/golden-signals.md
@@ -118,6 +122,13 @@ class: text-center
 
 # LOGS
 
+<style>
+  .slidev-layout {
+    background: linear-gradient(to right, #A11CAF, #5B21B6);
+}
+</style>
+
+
 ---
 src: ./pages/event-transactions-system.md
 ---
@@ -138,6 +149,13 @@ class: text-center
 
 # TRACES
 
+<style>
+  .slidev-layout {
+    background: linear-gradient(to right, #A11CAF, #5B21B6);
+}
+</style>
+
+
 ---
 src: ./pages/elementary-watson.md
 ---
@@ -153,6 +171,12 @@ class: text-center
 
 # COLLECTOR
 
+<style>
+  .slidev-layout {
+    background: linear-gradient(to right, #A11CAF, #5B21B6);
+}
+</style>
+
 ---
 src: ./pages/agent-api-exporter.md
 ---
@@ -166,6 +190,12 @@ layout: center
 ---
 
 # DEMO TIME!
+
+<style>
+  .slidev-layout {
+    background: linear-gradient(to right, #A11CAF, #5B21B6);
+}
+</style>
 
 ---
 src: ./pages/about-me.md
