@@ -8,7 +8,7 @@ layout: two-cols-header
 <v-click>
 
 ### Stand-alone
-<img m-3 style="margin-top: -80px; height: 70%;"  src="https://opentelemetry.io/docs/collector/img/otel-sdk.svg">
+<img m-3 style="margin-top: -80px; height: 50%;"  src="https://opentelemetry.io/docs/collector/img/otel-sdk.svg">
 </v-click>
 
 <v-click>
@@ -21,17 +21,17 @@ layout: two-cols-header
 
 <v-click>
 <h3 style="margin-top: -80px;">Sidecar</h3>
-<img m-3 style="height: 20%" src="../assets/external/sidecar-collector.png">
+<img m-3 style="height: 19%;" src="../assets/collector-sidecar.excalidraw.svg">
 </v-click>
 <v-click>
 
 ### Node
-<img m-3 style="height: 20%" src="../assets/external/node-collector.png">
+<img m-3 style="height: 19%" src="../assets/collector-node.excalidraw.svg">
 </v-click>
 <v-click>
 
 ### Service
-<img m-3 style="height: 20%" src="../assets/external/service-collector.png">
+<img m-3 style="height: 19%;" src="../assets/collector-service.excalidraw.svg">
 </v-click>
 
 <style>

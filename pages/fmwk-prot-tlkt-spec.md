@@ -1,7 +1,5 @@
 ---
-theme: unicorn
-layout: image-center
-image: ../assets/space.excalidraw.svg
+layout: center
 ---
 
 # The components of OpenTelemetry
@@ -13,7 +11,6 @@ img {
     border-radius: 5%;
     scale: 80%;
     margin-top: -45px;
-    margin-left: 90px;
 }
 
 .slidev-layout {

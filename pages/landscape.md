@@ -1,8 +1,5 @@
 ---
-layout: image-center
-image: './assets/external/CloudNativeLandscape_latest.png'
-imageHeight: '700'
-imageWidth: '1000'
+layout: center
 ---
 
 # The Observability Zoo

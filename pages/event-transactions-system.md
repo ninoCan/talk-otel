@@ -17,7 +17,9 @@ layout: two-cols-header
 <div>
 <br>
 
-## Log Bridge API
+<span at="-1">
+    <h2>Log Bridge API</h2>
+</span>
 
 <br>
 </div>

@@ -7,17 +7,17 @@ layout: center
 <div>
 
   <v-clicks>
-    <img gap-4 class="thirdColumn" src="../assets/pillar-logs.excalidraw.svg">
-    <img gap-4 class="thirdColumn" src="../assets/pillar-metrics.excalidraw.svg">
-    <img gap-4 class="thirdColumn" src="../assets/pillar-traces.excalidraw.svg">
+    <img class="thirdColumn" src="../assets/pillar-logs.excalidraw.svg">
+    <img class="thirdColumn" src="../assets/pillar-metrics.excalidraw.svg">
+    <img class="thirdColumn" src="../assets/pillar-traces.excalidraw.svg">
   </v-clicks>
 </div>
 
 <style>
   .thirdColumn {
     float: left;
-    width: 30%;
-    margin-left: 4px;
+    width: 25%;
+    margin-left: 25px;
   }
   img {
     border-radius: 5%;
